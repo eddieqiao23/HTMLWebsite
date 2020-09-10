@@ -82,56 +82,52 @@
     four grand slams. Here is a slideshow of Federer's first win for each grand slam.
   </p>
 
-
-
+  <!-- Carousel code -->
   <div id="calendar" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#calendar" data-slide-to="0" class="active"></li>
+      <li data-target="#calendar" data-slide-to="1"></li>
+      <li data-target="#calendar" data-slide-to="2"></li>
+      <li data-target="#calendar" data-slide-to="3"></li>
+    </ul>
 
-  <!-- Indicators -->
-  <ul class="carousel-indicators">
-    <li data-target="#calendar" data-slide-to="0" class="active"></li>
-    <li data-target="#calendar" data-slide-to="1"></li>
-    <li data-target="#calendar" data-slide-to="2"></li>
-    <li data-target="#calendar" data-slide-to="3"></li>
-  </ul>
+    <!-- Slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="wimbledon.jpg" alt="Wimbledon win">
+        <div class="carousel-caption">
+          <h4 style = "color:black">Wimbledon</h4>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="australian.jpg" alt="Australian Open win">
+        <div class="carousel-caption">
+          <h4>Australian Open</h4>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="us.jpg" alt="US Open win">
+        <div class="carousel-caption">
+          <h4>US Open</h4>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="french.jpg" alt="French Open win">
+        <div class="carousel-caption">
+          <h4 style = "color:black">French Open</h4>
+        </div>
+      </div>
+    </div>
 
-  <!-- Slideshow -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="wimbledon.jpg" alt="Wimbledon win">
-      <div class="carousel-caption">
-        <h4 style = "color:black">Wimbledon</h4>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="australian.jpg" alt="Australian Open win">
-      <div class="carousel-caption">
-        <h4>Australian Open</h4>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="us.jpg" alt="US Open win">
-      <div class="carousel-caption">
-        <h4>US Open</h4>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="french.jpg" alt="French Open win">
-      <div class="carousel-caption">
-        <h4 style = "color:black">French Open</h4>
-      </div>
-    </div>
+    <!-- Controls -->
+    <a class="carousel-control-prev" href="#calendar" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#calendar" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
   </div>
-
-  <!-- Controls -->
-  <a class="carousel-control-prev" href="#calendar" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#calendar" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
-
-</div>
-
 
   <hr />
 
@@ -237,6 +233,5 @@
   </address>
   <br /> <br />
   <a href = "#top">Go to top </a>
-
 </body>
 </html>
