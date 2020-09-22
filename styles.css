@@ -1,20 +1,61 @@
+h1.caps {
+  font-variant: small-caps;
+}
+
+.serif {
+  font-family: "Times New Roman", Times, serif;
+}
+
 /* Changes text */
 p {
-  font-family: Arial;
+  font-family: sans-serif;
   font-size: 90%;
+  padding-left: 15px;
 }
 h2 {
+  font-family: sans-serif;
   background-color: rgb(255, 165, 0, 0.5);
   border-left: 6px solid rgb(255, 165, 0);
   padding: 5px 10px;
 }
 h3 {
+  font-family: sans-serif;
   background-color: rgb(0, 191, 255, 0.5);
   border-left: 4px solid rgb(0, 191, 255);
   padding: 2px 5px;
 }
 
-/* CSS for table */
+/* Class for paragraph */
+p.emphasize {
+  font-weight: bold;
+}
+
+/* Links */
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: red;
+}
+
+#gotop {
+  display: inline-block;
+  background-color: green;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+}
+
+/* Table */
+table {
+  margin: 10px;
+}
 table, th, td {
   border: 1px solid black;
 }
@@ -22,11 +63,39 @@ th, td {
   padding: 5px;
 }
 
+
+/* Background */
 body {
   background-color: rgb(0, 100, 255, 0.2);
 }
 
-.carousel {
-  width:350px;
-  height:200px;
+/* Lists */
+li {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+ul {
+  list-style-type: square;
+}
+
+/* Images */
+img {
+  padding: 10px;
+}
+
+/* Iframe */
+iframe {
+  border: 1px dashed black;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Poem */
+#haiku {
+  text-align: center;
+}
+
+#calendar {
+  width: 350px;
+  height: 200px;
 }

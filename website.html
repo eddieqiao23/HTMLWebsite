@@ -18,7 +18,7 @@
 </head>
 
 <body>
-  <h1 style = "font-size:50px" id = "top">The Tennis GOAT</h1>
+  <h1 style = "font-size:50px" id = "top" class = "caps">The Tennis GOAT</h1>
   <p>is named Roger Federer.</p>
   <a href = "https://en.wikipedia.org/wiki/Roger_Federer" target = "_blank">
     <img src = "federerWin.jpg" alt = "Federer wins Wimbledon" width = "320" height = "180" />
@@ -41,7 +41,7 @@
 
   <!-- Federer's Records -->
   <h3>Grand slams</h3>
-  <p>He has won the most grand slams ever. Here is the ranking of the people with the most grand slams.</p>
+  <p class = "emphasize">He has won the most grand slams ever. Here is the ranking of the people with the most grand slams.</p>
   <ol>
     <li>Federer</li>
     <li>Nadal</li>
@@ -60,19 +60,18 @@
     <li>237 consecutive weeks at World No. 1</li>
     <li>Oldest player to be World No. 1</li>
   </ul>
-  <p>Other records are found here
+  <p>Other records are found
     <a href = "https://en.wikipedia.org/wiki/List_of_career_achievements_by_Roger_Federer" target = "_blank">here</a>
   </p>
 
   <!-- Federer's Age -->
-  <h3>Longevitivity</h3>
+  <h3>Longevity</h3>
 
-  <p title = "Age">
+  <p title = "Age" class = "emphasize">
     Currently, he is 39 years old, yet he is still one of the best players <br />
     in the tour. Despite <emph>claiming</emph> he's mortal, that's probably false. <br />
     Here's a quote from him: <q>I can't stay No. 1 for fifty years, you know. We'll see what happens.</q>
   </p>
-  <br /> <br />
   <p>Quote from <cite>BrainlyQuote</cite></p>
 
   <h3>Calendar Grand Slam</h3>
@@ -83,7 +82,7 @@
   </p>
 
   <!-- Carousel code -->
-  <div id="calendar" class="carousel slide" data-ride="carousel">
+  <div id = "calendar" class = "carousel slide" data-ride = "carousel">
     <!-- Indicators -->
     <ul class="carousel-indicators">
       <li data-target="#calendar" data-slide-to="0" class="active"></li>
@@ -135,7 +134,7 @@
 
   <h3>Haiku About Him</h3>
 
-  <pre style = "text-align:center">
+  <pre id = "haiku">
     Federer is good.
 
     He's better than Djokovic
@@ -144,10 +143,12 @@
   </pre>
 
   <!-- Random stuff to end the website -->
-  <p><del>Djokovic</del>Federer is good</p>
+  <p class = "emphasize">
+    <del>Djokovic</del>Federer is good
+  </p>
 
   <h3>World Rankings</h3>
-  <table style="width:25%">
+  <table style = "width:25%">
     <caption>"ATP World Tour Rankings"</caption>
     <tr>
       <th>Rank</th>
@@ -232,6 +233,6 @@
     USA
   </address>
   <br /> <br />
-  <a href = "#top">Go to top </a>
+  <a href = "#top" id = "gotop">Go to top </a>
 </body>
 </html>
